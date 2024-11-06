@@ -1,4 +1,4 @@
-FastAPI Document Retrieval and Embedding Server
+FastAPI server implementation for document retrieval and embedding, enabling efficient Retrieval-Augmented Generation (RAG) with optimized performance.
 
 This repository provides a FastAPI server tailored for Retrieval-Augmented Generation (RAG), facilitating the ingestion and querying of documents. Using ChromaDB as a vector database, the server supports multiple file formats, including PDF, DOC, DOCX, and TXT. Document embeddings are generated with the sentence-transformers/all-MiniLM-L6-v2 model, optimized for CPU-based operations. The server ensures efficient, non-blocking API endpoints to handle multiple requests concurrently.
 
