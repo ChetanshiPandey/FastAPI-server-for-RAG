@@ -9,6 +9,11 @@ High-Quality Embeddings: Uses sentence-transformers/all-MiniLM-L6-v2 for meaning
 Asynchronous API: FastAPI’s non-blocking design allows for efficient handling of concurrent requests.
 Technology Stack
 
+## Supported File Formats
+- **PDF**: Text is extracted using `PyMuPDF`.
+- **DOCX**: Text is extracted using `python-docx`.
+- **TXT**: Plain text files are supported.
+
 FastAPI: Framework for building high-performance APIs.
 ChromaDB: Vector database for storing and querying document embeddings.
 Sentence-Transformers: Model for creating text embeddings.
